@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile F (1)" tilewidth="16" tileheight="16">
+  <image source="Tile F (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 12 Gray" tilewidth="16" tileheight="16">
+  <image source="Tile 12 Gray.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuIASldWh60HH9FA3CmgH6BmXo/E7cABb/GCLJ0rVjQL6gtH8OzIAPfMvAKilC0s=
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTZKA/UITiUXtpb+8ooA8Yaelq1F762DsK6ANGWroatZc+9gIAn/gDnQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="randomBossEnemySpawnPoint" x="104" y="33">
+   <properties>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="418" y="33">
+   <properties>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="193" y="98">
+   <properties>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="105" y="162">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="423" y="161">
+   <properties>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="346" y="226">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="6"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="266" y="162">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="8"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="345" y="98">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="9"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="186" y="227">
+   <properties>
+    <property name="ninjaSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="7"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="104" y="290">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="266" y="282">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="50" y="216">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="345" y="210">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="265" y="145">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="346" y="83">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="193" y="83">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="425" y="275">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="BoxingGlovePowerUp" x="265" y="260">
+   <properties>
+    <property name="BoxingGlovePowerUp" value="1"/>
+   </properties>
+  </object>
+  <object name="parkourJumperSpawnPoint" x="267" y="136">
+   <properties>
+    <property name="isBoss" value="YES"/>
+    <property name="parkourJumperSpawnPoint" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

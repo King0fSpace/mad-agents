@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile F (1)" tilewidth="16" tileheight="16">
+  <image source="Tile F (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 12 Gray" tilewidth="16" tileheight="16">
+  <image source="Tile 12 Gray.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzlVFsKACAI8yzd/5D99jFrOuxBg6BEXcyH2X9ow0G25vh7bxSPfLy/oDsLFHMLb0RnTz/WL4tZrJJ3J+9Kq0peNpatL/JledVeWEGdGYVX6XV2lpSc1dqPvIztNV52FqJ7s6pGyq44xRvREeXJ6NwBf64TqQ==
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxAJFKB4Fo2Ckg4HIBwOV/wbS3lEwCkbB0AUAmdMBCQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="SpawnPoint" x="57" y="287">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object x="-60" y="145" height="20"/>
+  <object name="PowerUpSpawnPoint" x="50" y="169">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="370" y="290">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="129" y="121">
+   <properties>
+    <property name="diagonalFlyerSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="262" y="62">
+   <properties>
+    <property name="diagonalFlyerSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="399" y="233">
+   <properties>
+    <property name="diagonalFlyerSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="250" y="191">
+   <properties>
+    <property name="diagonalFlyerSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="457" y="116">
+   <properties>
+    <property name="diagonalFlyerSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="6"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="105" y="214">
+   <properties>
+    <property name="diagonalFlyerSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="BoxingGlovePowerUp" x="258" y="17">
+   <properties>
+    <property name="BoxingGlovePowerUp" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="257" y="114">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="402" y="64">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="flyThroughWallsDiagonalFlyerSpawnPoint" x="344" y="154">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnPoint" value="1"/>
+    <property name="isBoss" value="YES"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="129" y="19">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="177" y="181">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="400" y="178">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

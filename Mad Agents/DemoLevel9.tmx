@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwwUwATELDjkBEswhRS0pgFxzBdDooQio4XZa+J8eYUqMHZS6gxL9QzldEQPw+W8ohRut/EELMwVwsEfByAIAACIBRw==
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTZ2BgEKUzlgBiMQb6A7FRe0ftHbV31N5Re0ftHbV3RNkrzUD/do4MEAMA3sMIFw==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="441" y="107" height="1"/>
+  <object name="TimeBomb" x="374" y="220">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="415" y="35">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="40" y="46">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="52" y="286">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="96" y="287">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="133" y="287">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="hidgonSpawnPoint" x="193" y="291">
+   <properties>
+    <property name="hidgonSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="226" y="290">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="262" y="292">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="294" y="291">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="hidgonSpawnPoint" x="336" y="293">
+   <properties>
+    <property name="hidgonSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="366" y="293">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="397" y="293">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="434" y="291">
+   <properties>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="hidgonSpawnPoint" x="29" y="284">
+   <properties>
+    <property name="hidgonSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="255" y="269">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="232" y="195">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="87" y="219">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="123" y="208">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="123" y="190">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="153" y="199">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="153" y="181">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="261" y="72">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="275" y="75">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

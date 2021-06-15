@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="../Working Levels/TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="../Working Levels/TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTZ2BgEKUzlgBiMQb6A7FRe0ftHbV31N5Re0ftHbV3RNkrzUD/do4MEAMA3sMIFw==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="-106" y="1" height="1"/>
+ </objectgroup>
+</map>

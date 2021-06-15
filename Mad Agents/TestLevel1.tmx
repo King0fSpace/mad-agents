@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="Long" value=""/>
+ </properties>
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYKUz5gBiNgb6A7ZRe0ftHbV31N5Re4mye9TeUXuHi73cDPRv5/AAMQBhtwHt
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="SpawnPoint" x="55" y="292"/>
+  <object name="TimeBomb" x="116" y="285">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object x="190" y="278"/>
+  <object name="ExitDoor" x="190" y="278">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="66" y="65">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="247" y="65">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="424" y="66">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="119" y="214">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="359" y="214">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="diagonalFlyerSpawnPoint" x="196" y="215">
+   <properties>
+    <property name="diagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAogQGzUXpKAEBCLomEROthLLhi1l34AACkmARU=
+  </data>
+ </layer>
+</map>

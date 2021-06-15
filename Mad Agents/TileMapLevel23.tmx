@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile R" tilewidth="16" tileheight="16">
+  <image source="Tile R.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 4 Green" tilewidth="16" tileheight="16">
+  <image source="Tile 4 Green.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDGWghIaJkcPFJ8WMUUBfQEk8j8br4AWj+Xf4AgBgOAbp
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTZKA/UITiUXtH7R21d9TeUXtH7R21d9Te4WgvAECYBSk=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="441" y="107" height="1"/>
+  <object name="TimeBomb" x="242" y="285">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="hidgonSpawnPoint" x="160" y="117">
+   <properties>
+    <property name="hidgonSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="hidgonSpawnPoint" x="321" y="117">
+   <properties>
+    <property name="hidgonSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="70" y="283">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="408" y="283">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="242" y="159">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="104" y="107">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="105" y="129">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="104" y="147">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="381" y="100">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="381" y="121">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="381" y="146">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="34" y="238">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="parkourJumperSpawnPoint" x="240" y="244">
+   <properties>
+    <property name="parkourJumperSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="241" y="99">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="242" y="51">
+   <properties>
+    <property name="WalkRightFirst" value="NO"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

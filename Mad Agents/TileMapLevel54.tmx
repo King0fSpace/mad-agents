@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile Q (1)" tilewidth="16" tileheight="16">
+  <image source="Tile Q (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 1 Red" tilewidth="16" tileheight="16">
+  <image source="Tile 1 Red.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTZGBgUMSDkQG15IjBA2UvvTA6oLXcQNs7UGFLz3Q1GOxlwCNOLTl86mgJRu0dtXc42kvvsmzUXvrZCwCDvyNT
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="StarInGameCurrency" x="208" y="197">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="321" y="194">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="95" y="195">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="191" y="219">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="206" y="220">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="221" y="220">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="189" y="235">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="208" y="236">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="224" y="237">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="32" y="197">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="32" y="241">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="375" y="23">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="264" y="22">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="150" y="21">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="74" y="68">
+   <properties>
+    <property name="WalkRightFirst" value="1"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="228" y="68">
+   <properties>
+    <property name="WalkRightFirst" value="NO"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="322" y="69">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="410" y="69">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="453" y="69">
+   <properties>
+    <property name="WalkRightFirst" value="NO"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="435" y="227">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

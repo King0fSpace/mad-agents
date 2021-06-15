@@ -45,6 +45,7 @@ const NSInteger	kCCZoomActionTag = 0xc0c05002;
 
 @implementation CCMenuItem
 
+
 @synthesize isSelected=isSelected_;
 +(id) itemWithTarget:(id) r selector:(SEL) s
 {
@@ -87,6 +88,7 @@ const NSInteger	kCCZoomActionTag = 0xc0c05002;
 	}
 	return self;
 }
+
 
 -(void) dealloc
 {
@@ -158,6 +160,11 @@ const NSInteger	kCCZoomActionTag = 0xc0c05002;
 
 @implementation CCMenuItemLabel
 
+@synthesize star1;
+@synthesize star2;
+@synthesize star3;
+@synthesize numberOfStarsAchieved;
+
 @synthesize disabledColor = disabledColor_;
 
 +(id) itemWithLabel:(CCNode<CCLabelProtocol,CCRGBAProtocol>*)label
@@ -197,6 +204,23 @@ const NSInteger	kCCZoomActionTag = 0xc0c05002;
 		colorBackup = ccWHITE;
 		disabledColor_ = ccc3( 126,126,126);
 		self.label = label;
+        
+        star1 = [CCSprite spriteWithFile:@"Star.png"];
+        [self addChild: star1];
+        star1.scale = 0.15;
+        star1.visible = NO;
+        
+        star2 = [CCSprite spriteWithFile:@"Star.png"];
+        [self addChild: star2];
+        star2.scale = 0.15;
+        star2.position = ccp(star2.position.x + 15, star2.position.y);
+        star2.visible = NO;
+        
+        star3 = [CCSprite spriteWithFile:@"Star.png"];
+        [self addChild: star3];
+        star3.scale = 0.15;
+        star3.position = ccp(star3.position.x + 30, star3.position.y);
+        star3.visible = NO;
 	}
 
 	return self;
@@ -295,6 +319,39 @@ const NSInteger	kCCZoomActionTag = 0xc0c05002;
 {
 	return [label_ color];
 }
+
+-(void) updateNumberOfStarsDisplayed
+{
+    //Determine which stars should be visible
+    if (numberOfStarsAchieved == 0) {
+        
+        self.star1.visible = NO;
+        self.star2.visible = NO;
+        self.star3.visible = NO;
+    }
+    
+    else if (numberOfStarsAchieved == 1) {
+        
+        self.star1.visible = YES;
+        self.star2.visible = NO;
+        self.star3.visible = NO;
+    }
+    
+    else if (numberOfStarsAchieved == 2) {
+        
+        self.star1.visible = YES;
+        self.star2.visible = YES;
+        self.star3.visible = NO;
+    }
+    
+    else if (numberOfStarsAchieved == 3) {
+        
+        self.star1.visible = YES;
+        self.star2.visible = YES;
+        self.star3.visible = YES;
+    }
+}
+
 @end
 
 #pragma mark  - CCMenuItemAtlasFont

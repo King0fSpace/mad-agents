@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwEwATErAcwyYK4bGQAWB6PhTBoQGGgHkABo4dbRdDP8AbXTzWg6HBkAAM0+AJA=
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTZ2BgEKUzlgBiMQb6A7FBaq8wCWaRopaQvaSEBalqB6O9kgy406QIle0VRzJbhgSzpBlQ8wkhewWxiFEKCJmBbie97KWWHmqYAUtL6OlGiIH4clCOCHtA+Z3ctIQLEEpjIDtpXVZiM1uMYWTaixwf5GJc6RBbehms9SAt7aVGGJOKQWEPAILODkQ=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="441" y="107" height="1"/>
+  <object name="diagonalFlyerSpawnPoint" x="408" y="82">
+   <properties>
+    <property name="diagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="diagonalFlyerSpawnPoint" x="62" y="64">
+   <properties>
+    <property name="diagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="hidgonSpawnPoint" x="163" y="86">
+   <properties>
+    <property name="hidgonSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="186" y="87">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="431" y="285">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="60" y="290">
+   <properties>
+    <property name="SpawnPoing" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="58" y="233">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="321" y="154">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="405" y="61">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="177" y="235">
+   <properties>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="225" y="156">
+   <properties>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

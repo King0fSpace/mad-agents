@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile J (1)" tilewidth="16" tileheight="16">
+  <image source="Tile J (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 10 White" tilewidth="16" tileheight="16">
+  <image source="Tile 10 White.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AJKBDAh9ZSaNwpoC8iNV3LVjwL6AkrjldL8PgpoC6gVr8TG8ygY/gAAbSwKoQ==
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTZGBgUBwAPNLAQPh5oMJ61F762TsK6ANGWroatXfU3uFm70BgAPwjCxc=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="441" y="107" height="1"/>
+  <object name="parkourJumperSpawnPoint" x="349" y="35">
+   <properties>
+    <property name="parkourJumperSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="parkourJumperSpawnPoint" x="378" y="103">
+   <properties>
+    <property name="parkourJumperSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="parkourJumperSpawnPoint" x="409" y="169">
+   <properties>
+    <property name="parkourJumperSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="parkourJumperSpawnPoint" x="439" y="230">
+   <properties>
+    <property name="parkourJumperSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="130" y="33">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="skeletonWhaleSpawnPoint" x="99" y="34">
+   <properties>
+    <property name="skeletonWhaleSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="36" y="290">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="flyThroughWallsDiagonalFlyerSpawnPoint" x="235" y="154">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="68" y="94">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="414" y="100">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="239" y="219">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="158" y="163">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="194" y="95">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="292" y="95">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="325" y="161">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="127" y="227">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="351" y="227">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="241" y="82">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

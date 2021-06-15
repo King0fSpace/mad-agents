@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile L (1)" tilewidth="16" tileheight="16">
+  <image source="Tile L (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 5 Blue" tilewidth="16" tileheight="16">
+  <image source="Tile 5 Blue.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAJKUDwKaAvoHc5KDPjtVKIhJsc9o2BogdH0PJqeR8HwAABbIQiB
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTZGBgUKQThgF0Pr3AqL3D395RQB8wEHE8mp5HAa3AaHqmrV3Y2gG0thOfG+jVzgEAaw4LOA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="441" y="107" height="1"/>
+  <object name="SpawnPoint" x="47" y="286">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="242" y="241">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="242" y="147">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="242" y="51">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="449" y="306">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="124" y="146">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="139" y="146">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="157" y="146">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="173" y="146">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="190" y="146">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="102" y="146">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="flyThroughWallsDiagonalFlyerSpawnPoint" x="386" y="49">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="flyThroughWallsDiagonalFlyerSpawnPoint" x="386" y="147">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="flyThroughWallsDiagonalFlyerSpawnPoint" x="386" y="241">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="96" y="275">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

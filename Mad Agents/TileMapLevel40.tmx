@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile 12 Gray" tilewidth="16" tileheight="16">
+  <image source="Tile 12 Gray.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwUUoZiQPLHqBhuglruHov+pFXfEmjMQYDR+R+N3NH5H43coxi8I0KP+BQAvnAoP
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="-60" y="145" height="20"/>
+  <object name="SpawnPoint" x="122" y="97">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="24" y="298">
+   <properties>
+    <property name="jetmanSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="26" y="25">
+   <properties>
+    <property name="jetmanSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="460" y="303">
+   <properties>
+    <property name="jetmanSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="460" y="23">
+   <properties>
+    <property name="jetmanSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="BoxingGlovePowerUp" x="242" y="91">
+   <properties>
+    <property name="BoxingGlovePowerUp" value="1"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="242" y="154">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="jetmanSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="242" y="217">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="241" y="26">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="241" y="275">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="97" y="152">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="386" y="154">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="34" y="57">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="449" y="58">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="skeletonWhaleSpawnPoint" x="417" y="153">
+   <properties>
+    <property name="isBoss" value="YES"/>
+    <property name="skeletonWhaleSpawnPoint" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

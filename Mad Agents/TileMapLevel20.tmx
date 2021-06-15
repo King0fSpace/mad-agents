@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile F (1)" tilewidth="16" tileheight="16">
+  <image source="Tile F (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 12 Gray" tilewidth="16" tileheight="16">
+  <image source="Tile 12 Gray.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AJKdMajgL5gNH5HJhiNx+EBRvPv8AYDEb8A600RAQ==
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTZKA/UITiUXtH7R21d9TeUXtH7R21d9Te4WgvAECYBSk=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="SpawnPoint" x="57" y="287">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="242" y="225">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="194" y="153">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="290" y="154">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="241" y="79">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="242" y="281">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="237" y="288">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="34" y="219">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="448" y="217">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="33" y="89">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="450" y="89">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="219" y="157">
+   <properties>
+    <property name="isBoss" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="112" y="289">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="378" y="289">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="89" y="227">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="394" y="227">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="6"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="136" y="162">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="7"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="247" y="156">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="8"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="353" y="158">
+   <properties>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="9"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="74" y="96">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="10"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="422" y="96">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="12"/>
+   </properties>
+  </object>
+  <object name="randomBossEnemySpawnPoint" x="242" y="96">
+   <properties>
+    <property name="chaserSpawnsHere" value="1"/>
+    <property name="flyThroughWallsDiagonalFlyerSpawnsHere" value="1"/>
+    <property name="randomBossEnemySpawnPoint" value="11"/>
+   </properties>
+  </object>
+  <object name="BoxingGlovePowerUp" x="242" y="27">
+   <properties>
+    <property name="BoxingGlovePowerUp" value="1"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="271" y="161">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

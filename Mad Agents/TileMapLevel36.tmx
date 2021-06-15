@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile D (1)" tilewidth="16" tileheight="16">
+  <image source="Tile D (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile H (1)" tilewidth="16" tileheight="16">
+  <image source="Tile H (1).png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="35" name="Tile 5 Blue" tilewidth="16" tileheight="16">
+  <image source="Tile 5 Blue.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="36" name="Tile 13 GrayBlue" tilewidth="16" tileheight="16">
+  <image source="Tile 13 GrayBlue.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAOoIGFS9dDSjlFAHUBq2KswUKZnFNAXEBv26PFKSjyPxu/IAgBsUASB
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTYmBgUBogTG8w0PaOhvOovaP2jto7au+ovaP20t/egcAAtpgQeQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="441" y="107" height="1"/>
+  <object name="SpawnPoint" x="38" y="288">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="91" y="33">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="114" y="34">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="393" y="33">
+   <properties>
+    <property name="WalkRightFirst" value="NO"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="downwardShooterEnemySpawnPoint" x="371" y="33">
+   <properties>
+    <property name="WalkRightFirst" value="NO"/>
+    <property name="downwardShooterEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="241" y="101">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="100" y="75">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="393" y="79">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="242" y="226">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="32" y="100">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="55" y="100">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="451" y="100">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="428" y="100">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="443" y="162">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="38" y="161">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="skeletonWhaleSpawnPoint" x="241" y="34">
+   <properties>
+    <property name="skeletonWhaleSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="241" y="146">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

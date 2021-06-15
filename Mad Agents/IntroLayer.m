@@ -44,22 +44,41 @@
 	CCSprite *background;
 	
 	if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ) {
-		background = [CCSprite spriteWithFile:@"Default.png"];
-		background.rotation = 90;
-	} else {
+        
+        if (size.width > 480.0f) {
+                   
+            background = [CCSprite spriteWithFile:@"Default-568h@2x.png"];
+            background.scale = 0.5;
+            background.rotation = 90;
+        }
+        
+        else {
+            background = [CCSprite spriteWithFile:@"Default.png"];
+            background.rotation = 90;
+            
+            //Check if device is retina
+            if  ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2){
+                
+                background.scale = 0.5;
+            }
+        }
+	}
+    
+    else {
 		background = [CCSprite spriteWithFile:@"Default-Landscape~ipad.png"];
 	}
+    
 	background.position = ccp(size.width/2, size.height/2);
 
 	// add the label as a child to this Layer
 	[self addChild: background];
 	
 	// In one second transition to the new scene
-	[self scheduleOnce:@selector(makeTransition:) delay:1];
+	[self makeTransition:0];
 }
 
 -(void) makeTransition:(ccTime)dt
 {
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] withColor:ccWHITE]];
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:0.0 scene:[HelloWorldLayer scene] withColor:ccBLACK]];
 }
 @end

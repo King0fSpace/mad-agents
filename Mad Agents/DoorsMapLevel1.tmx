@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="../Working Levels/TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="../Working Levels/TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAMwATErELOQKE6OHnTxUTD4AL74HQVDH4zG7yggBADK8wBd
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTZ2BgEKUzlgBiMQb6A7FRe0ftHbV31N5Re1GAEBBLIWE5OtkLApJALA/FA2kviA+rn0RoaK80EMtCMT39iwyGe3rGZi8o3OndzpEBYgB0bgnb
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="movingDoorSpawnPoint" x="401" y="259" width="16" height="44">
+   <properties>
+    <property name="DoorColor" value="GREEN"/>
+    <property name="heightInTileUnits" value="3"/>
+    <property name="movingDoorSpawnPoint" value="1"/>
+    <property name="widthInTileUnits" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="441" y="282">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="240" y="98">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="skeletonWhaleSpawnPoint" x="237" y="39">
+   <properties>
+    <property name="skeletonWhaleSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="41" y="93">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="443" y="92">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="41" y="278">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="188" y="222">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="187" y="195">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="186" y="167">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="286" y="222">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="286" y="192">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="285" y="162">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="InGameButtonSpawnPoint" x="348" y="272">
+   <properties>
+    <property name="ButtonColor" value="GREEN"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="38" y="225">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object x="-106" y="1" height="1"/>
+ </objectgroup>
+</map>

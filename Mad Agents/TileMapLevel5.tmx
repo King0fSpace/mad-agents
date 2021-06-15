@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileSetTemplate" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="TileSetTemplateSolid" tilewidth="16" tileheight="16">
+  <image source="TileSetTemplateSolid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="Tile H" tilewidth="16" tileheight="16">
+  <image source="Tile H.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="34" name="Tile 4 Green" tilewidth="16" tileheight="16">
+  <image source="Tile 4 Green.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="35" name="Tile 9 DarkGreen" tilewidth="16" tileheight="16">
+  <image source="Tile 9 DarkGreen.png" width="16" height="16"/>
+ </tileset>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUkAOUoXikgpHu/1EwCkbBKMAHAB4lAI0=
+  </data>
+ </layer>
+ <layer name="solidbricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk1EKACAIQ72K979kvxJTR2BFJggJ0tOtVET0oqyMz+3LrXyrzG4V/2KHpgy30l9G91N+v87tmDZQzfTYXgV9HtermTO6f54HsbPdPC7DybieRowO0UwrXORTVLP+DtgxLYI=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object x="441" y="107" height="1"/>
+  <object name="SpawnPoint" x="31" y="187">
+   <properties>
+    <property name="SpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="TimeBomb" x="443" y="130">
+   <properties>
+    <property name="TimeBomb" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="383" y="148">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="325" y="146">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="267" y="145">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="201" y="145">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="130" y="143">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="55" y="120">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="0"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="70" y="118">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="91" y="120">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="2"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="55" y="136">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="3"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="71" y="136">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="4"/>
+   </properties>
+  </object>
+  <object name="PowerUpSpawnPoint" x="94" y="136">
+   <properties>
+    <property name="PowerUpSpawnPoint" value="5"/>
+   </properties>
+  </object>
+  <object name="MindControlPowerUp" x="31" y="134">
+   <properties>
+    <property name="MindControlPowerUp" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="236" y="147">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="diagonalFlyerSpawnPoint" x="409" y="128">
+   <properties>
+    <property name="diagonalFlyerSpawnPoint" value="1"/>
+   </properties>
+  </object>
+  <object name="FriendPillPowerUp" x="31" y="126">
+   <properties>
+    <property name="FriendPillPowerUp" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="242" y="54">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="StarInGameCurrency" x="369" y="52">
+   <properties>
+    <property name="StarInGameCurrency" value="1"/>
+   </properties>
+  </object>
+  <object name="ExitDoor" x="146" y="66">
+   <properties>
+    <property name="ExitDoor" value="1"/>
+   </properties>
+  </object>
+  <object name="runningChaserEnemySpawnPoint" x="290" y="79">
+   <properties>
+    <property name="WalkRightFirst" value="YES"/>
+    <property name="runningChaserEnemySpawnPoint" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

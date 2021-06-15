@@ -51,7 +51,6 @@
 @since v0.8.2
 */
 @property (nonatomic,readonly) BOOL isSelected;
-
 /** Creates a CCMenuItem with a target/selector.
  target/selector will be implemented using blocks.
  "target" won't be retained.
@@ -103,6 +102,7 @@
 /** cleanup event. It will release the block and call [super cleanup] */
 -(void) cleanup;
 
+
 @end
 
 #pragma mark -
@@ -121,7 +121,19 @@
 	ccColor3B	colorBackup;
 	ccColor3B	disabledColor_;
 	float		originalScale_;
+    
+    CCSprite *star1;
+    CCSprite *star2;
+    CCSprite *star3;
+    
+    int numberOfStarsAchieved;
 }
+
+@property (nonatomic,readonly) CCSprite *star1;
+@property (nonatomic,readonly) CCSprite *star2;
+@property (nonatomic,readonly) CCSprite *star3;
+@property int numberOfStarsAchieved;
+
 
 /** the color that will be used to disable the item */
 @property (nonatomic,readwrite) ccColor3B disabledColor;
@@ -161,6 +173,9 @@
  @warning setIsEnabled changes the RGB color of the font
  */
 -(void) setIsEnabled: (BOOL)enabled;
+
+-(void) updateNumberOfStarsDisplayed;
+
 @end
 
 #pragma mark -
